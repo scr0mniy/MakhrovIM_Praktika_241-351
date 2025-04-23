@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="poly.jpg" alt="Логотип" class="center-logo">
+    <style>
+        :root {
+            --primary-color: #000000; 
+            --secondary-color: #FFFFFF; 
+            --accent-color: #CCCCCC; 
+            --text-color: #000000;
+            --bg-color: #FFFFFF;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: var(--secondary-color);
+            padding: 1.5rem;
+            text-align: center;
+            border-bottom: 2px solid var(--primary-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .logo-line1 {
+            font-weight: bold;
+            font-size: 2rem;
+            letter-spacing: 2px;
+            color: var(--primary-color);
+            margin-bottom: 0.2rem;
+        }
+        
+        .logo-line2 {
+            font-weight: bold;
+            font-size: 2rem;
+            letter-spacing: 2px;
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+        
+        nav {
+            background-color: var(--secondary-color);
+            padding: 0.7rem;
+            border-bottom: 1px solid var(--primary-color);
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav li {
+            margin: 0 1.2rem;
+        }
+        
+        nav a {
+            color: var(--primary-color);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: all 0.3s;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+        
+        nav a:hover {
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        
+        .content-placeholder {
+            background-color: var(--secondary-color);
+            border: 1px solid var(--primary-color);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .content-placeholder h2 {
+            color: var(--primary-color);
+            margin-top: 0;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+        }
+        .logo-img-container {
+    text-align: center;
+    margin: 20px 0; 
+}
+
+.center-logo {
+    width: 100%;
+    height: 350px;
+    display: block; 
+    margin: 0 auto; 
+}
+        .content-placeholder p {
+            margin-bottom: 1.5rem;
+        }
+        
+        footer {
+            background-color: black;
+
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+            border-top: 1px solid var(--primary-color);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="team.html">Команда</a></li>
+            <li><a href="resources.html">Ресурсы</a></li>
+            <li><a href="magazine.html">Журнал</a></li>
+            <li><a href="project.html">О проекте</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="content-placeholder">
+            <h2>Команда</h2>
+            <p>• Абдуллаев Аслиддин</p>
+            <p>• Алимзода Сироджиддин</p>
+            <p>• Андреева Татьяна</p>
+            <p>• Багамыгин Марат</p>
+            <p>• Блинов Кирилл</p>
+            <p>• Бородаенко Валерия</p>
+            <p>• Бунин Никита</p>
+            <p>• Валеев Артур</p>
+            <p>• Ваниева Тамара</p>
+            <p>• Воложадин Дмитрий</p>
+            <p>• Воротилин Илья</p>
+            <p>• Глинина Анастасия</p>
+            <p>• Дедковский Егор</p>
+            <p>• Демкин Георгий</p>
+            <p>• Евдокименко Константин</p>
+            <p>• Ефименко Тимур</p>
+            <p>• Закс Дмитрий</p>
+            <p>• Калинин Егор</p>
+            <p>• Касимцев Дамир</p>
+            <p>• Квасницкая Мария</p>
+            <p>• Короткова Виолетта</p>
+            <p>• Котельников Даниил</p>
+            <p>• Кротова Светлана</p>
+            <p>• Кузнецова Вера</p>
+            <p>• Кхаза Мохаммад</p>
+            <p>• Линьков Пётр</p>
+            <p>• Мальгина Мария</p>
+            <p>• Махров Илья</p>
+            <p>• Менгпулатов Исмоил</p>
+            <p>• Милосердов Николай</p>
+            <p>• Мурашкина Вероника</p>
+            <p>• Муродуллаев Хамид</p>
+            <p>• Нургалиев Кайрат</p>
+            <p>• Орлов Михаил</p>
+            <p>• Парфенов Андрей</p>
+            <p>• Пивницкая Владислава</p>
+            <p>• Попов Сергей</p>
+            <p>• Салаватова Айназат</p>
+            <p>• Сёмкин Егор</p>
+            <p>• Сильченко Александр</p>
+            <p>• Степаненко Алексей</p>
+            <p>• Субботкина Екатерина</p>
+            <p>• Тамьянов Илья</p>
+            <p>• Тогаев Мираншох</p>
+            <p>• Троицкий Андрей</p>
+            <p>• Туйчиев Огабек</p>
+            <p>• Цимбалистенко Александр</p>
+            <p>• Чистяков Артем</p>
+            <p>• Чуприн Александр</p>
+            <p>• Шахбазян Карен</p>
+            <p>• Шемет Милан</p>
+            <p>• Шенфельд Герман</p>
+            <p>• Янышев Кирилл</p>
+           
+        </div>
+    </div>
+    
+    <footer>
+        &copy; 2025 МОСКОВСКИЙ ПОЛИТЕХ. Все права защищены.
+    </footer>
+</body>
+</html>
