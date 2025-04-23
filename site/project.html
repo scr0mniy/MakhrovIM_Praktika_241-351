@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="poly.jpg" alt="Логотип" class="center-logo">
+    <style>
+        :root {
+            --primary-color: #000000; /* Чёрный */
+            --secondary-color: #FFFFFF; /* Белый */
+            --accent-color: #CCCCCC; /* Серый для акцентов */
+            --text-color: #000000;
+            --bg-color: #FFFFFF;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: var(--secondary-color);
+            padding: 1.5rem;
+            text-align: center;
+            border-bottom: 2px solid var(--primary-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .logo-line1 {
+            font-weight: bold;
+            font-size: 2rem;
+            letter-spacing: 2px;
+            color: var(--primary-color);
+            margin-bottom: 0.2rem;
+        }
+        
+        .logo-line2 {
+            font-weight: bold;
+            font-size: 2rem;
+            letter-spacing: 2px;
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+        
+        nav {
+            background-color: var(--secondary-color);
+            padding: 0.7rem;
+            border-bottom: 1px solid var(--primary-color);
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav li {
+            margin: 0 1.2rem;
+        }
+        
+        nav a {
+            color: var(--primary-color);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: all 0.3s;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+        
+        nav a:hover {
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        
+        .content-placeholder {
+            background-color: var(--secondary-color);
+            border: 1px solid var(--primary-color);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .content-placeholder h2 {
+            color: var(--primary-color);
+            margin-top: 0;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+        }
+        .logo-img-container {
+    text-align: center;
+    margin: 20px 0; 
+}
+
+.center-logo {
+    width: 100%;
+    height: 350px;
+    display: block; 
+    margin: 0 auto; 
+}
+        .content-placeholder p {
+            margin-bottom: 1.5rem;
+        }
+        
+        footer {
+            background-color: black;
+
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+            border-top: 1px solid var(--primary-color);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="team.html">Команда</a></li>
+            <li><a href="resources.html">Ресурсы</a></li>
+            <li><a href="magazine.html">Журнал</a></li>
+            <li><a href="project.html">О проекте</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="content-placeholder">
+            <h2>Контакты</h2>
+            <h3>Описание проекта</h3>
+            <p>Веб-приложение для удобной и быстрой доставки документации.</p>
+            <h3>Цель проекта</h3>
+            <p>Разработка эффективной автоматизированной системы для управления процессами доставки в компании-заказчике.</p>
+            <h3>Актуальность</h3>
+            <p>Проект решает ключевые проблемы логистики, повышает эффективность доставки и удовлетворенность клиентов, а также соответствует современным требованиям безопасности и автоматизации.</p>
+            <h3>Приглашаемые участники</h3>
+            <p>
+                <li>  ИГиИК — Графический дизайн мультимедиа</li>
+                <li>  ИГиИК — Художник анимации и компьютерной графики</li>
+                <li>  ИГиИК — Художник-график</li>
+                <li>  ИИДиЖ — Периодические издания и мультимедийная журналистика</li>
+                <li>  ИИДиЖ — Книгоиздательское дело</li>
+                <li>  ФИТ — Веб-технологии</li>
+                <li>  ФИТ — Безопасность компьютерных систем</li>
+            </p>
+        </div>
+    </div>
+    
+    <footer>
+        &copy; 2025 МОСКОВСКИЙ ПОЛИТЕХ. Все права защищены.
+    </footer>
+</body>
+</html>
